@@ -1,0 +1,8 @@
+CREATE TABLE evidence (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    evidence_id TEXT,
+    case_id TEXT,
+    evidence_type TEXT,
+    description TEXT,
+    timestamp TEXT
+);
